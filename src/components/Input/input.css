@@ -1,0 +1,18 @@
+.input {
+    height: 12px;
+    width: 200px;
+    padding: 12px;
+    margin-left: 16px;
+    background-color: #3f3d3d;
+    color: #b5b1b1ed;
+    border-radius: 25px;
+    border: 3px solid #3f3d3d;
+    font-size: 1em;
+    background-image: url("/src/assets/search-icon.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: 12px;
+    
+
+}

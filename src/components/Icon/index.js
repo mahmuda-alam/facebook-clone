@@ -1,9 +1,10 @@
 import React from "react";
+import './icon.css';
 
-export default function Icon() {
-    return(
+export default function Icon({ src, classes }) {
+    return (
         <div>
-            Icon Component
+            <img src={src} alt="icon" className={`icon ${classes}`}  />
         </div>
     )
 }
