@@ -8,10 +8,10 @@ import ImageIcon from "./../../assets/Pic.jpg"
 function RightHeader() {
     return(
         <div className="icon-container">
-            <Icon src={MessengerIcon} classes="right-icon"></Icon>
-            <Icon src={MenuBarIcon} classes="right-icon"></Icon>
-            <Icon src={NotificationBellIcon} classes="right-icon"></Icon>
-            <Icon src={ImageIcon} classes="img-round right-icon"></Icon> 
+            <Icon src={MenuBarIcon} iconName="Menu" classes="right-icon"></Icon>
+            <Icon src={MessengerIcon} iconName="Messenger" classes="right-icon"></Icon>
+            <Icon src={NotificationBellIcon} iconName="Notifications" classes="right-icon"></Icon>
+            <Icon src={ImageIcon} iconName="Account" classes="img-round right-icon"></Icon> 
         </div>
     )
 }
